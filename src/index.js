@@ -12,16 +12,23 @@ import './chp04/ConfirmDialog.css'
 import ConfirmDialogs from "./chp04/ConfirmDialogs";
 import Clock from "./chp04/Clock";
 import './chp04/clock.css'
+import Comment from "./chp05/exam01/Comment";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(()=>{
-    root.render(
-        <React.StrictMode>
-            <Clock />
-        </React.StrictMode>
-    );
-}, 1000)
+root.render(
+    <React.StrictMode>
+        <Comment />
+    </React.StrictMode>
+);
+
+// setInterval(()=>{
+//     root.render(
+//         <React.StrictMode>
+//             <Clock />
+//         </React.StrictMode>
+//     );
+// }, 1000)
 
 
 // If you want to start measuring performance in your app, pass a function

@@ -17,6 +17,26 @@ const books = [
         title: "Clean Code",
         author: "Robert C. Martin",
         coverImage: "https://image.yes24.com/goods/11681152/XL"
+    },
+    {
+        title: "Learning Javascript by Myself",
+        author: "윤인성",
+        coverImage: "https://image.yes24.com/goods/105863903/XL"
+    },
+    {
+        title: "Clean Code",
+        author: "Robert C. Martin",
+        coverImage: "https://image.yes24.com/goods/11681152/XL"
+    },
+    {
+        title: "Learning Javascript by Myself",
+        author: "윤인성",
+        coverImage: "https://image.yes24.com/goods/105863903/XL"
+    },
+    {
+        title: "Clean Code",
+        author: "Robert C. Martin",
+        coverImage: "https://image.yes24.com/goods/11681152/XL"
     }
 ];
 

@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import StudentAttendance from "./chp10/ex2/StudentAttendance";
-import AttendanceCard from "./chp10/ex3/AttendanceCard";
+import FruitSelect from "./chp11/ex2/FruitSelect";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <AttendanceCard/>
+        <FruitSelect/>
     </React.StrictMode>
 );
 

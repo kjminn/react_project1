@@ -1,0 +1,50 @@
+/* Reservation Form CSS */
+.reservation-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    background: #fafcff;
+    box-shadow: 0 2px 8px rgba(60, 80, 120, 0.07);
+}
+
+.reservation-form label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.reservation-form input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.15);
+    vertical-align: middle;
+}
+
+.reservation-form input[type="number"] {
+    padding: 6px 10px;
+    border: 1px solid #b7c2cc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 60px;
+    margin-left: 8px;
+}
+
+.reservation-form button[type="submit"] {
+    margin-top: 16px;
+    padding: 9px 24px;
+    font-size: 1em;
+    color: #fff;
+    background: #3450db;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.reservation-form button[type="submit"]:hover {
+    background: #2235a2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

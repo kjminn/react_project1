@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import FruitSelect from "./chp11/ex2/FruitSelect";
+import ConfirmBoilVerdict from "./chp12/ex1/ConfirmBoilVerdict";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <FruitSelect/>
+        <ConfirmBoilVerdict/>
     </React.StrictMode>
 );
 
